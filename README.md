@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in Kotlin related to the implicit `it` parameter in lambda expressions.  When a lambda expression has multiple parameters, the implicit `it` parameter is not available, leading to a compilation error. The `bug.kt` file shows the erroneous code, while `bugSolution.kt` provides the corrected version.
